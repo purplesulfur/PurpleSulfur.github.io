@@ -1,0 +1,68 @@
+.nav-link {
+    transition: all 0.2s;
+    position: relative;
+
+}
+
+.nav-link:hover {
+    
+}
+
+.h1 {
+
+    text: #FFC107;
+
+}
+
+
+.gray{
+    background-color: lightgray;
+}
+
+.nav-link::after{
+    content: '';
+    transition: all 0.3s;
+    opacity: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #FFC107;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+    
+}
+.services {
+    transition: all 0.2s;
+    position: relative;
+
+}
+
+.services:hover {
+    
+}
+
+.services::after{
+    content: '';
+    transition: all 0.3s;
+    opacity: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #FFC107;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.services:hover::after{
+    opacity: 1;
+    
+}
+
+.accordion-item:hover {
+    background-color: ;
+
+ }

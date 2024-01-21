@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="navBar.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>UniPal</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">UniPal</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section
+      class="bg-gray text-dark p-5 p-lg-0 pt-lg-3 p-md-5 p-sm-5 text-center text-sm-start"
+    >
+      <div class="container pt-5 ">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Shedding light</h1><h2>on learning</h2>
+            <p class="lead my-4">
+              Customised learning solutions and extracurricula reinforement for the university student
+            
+            </p>
+            <button
+              class="btn btn-warning btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Contact Us
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block pt-5"
+            src="lightbulb.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+        <section id="about" class="p-5">
+      <div class="container">
+        <h2 class="text-center text-black pt-5 pb-3">Key Competencies</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="Education.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Education</h3>
+                <p class="card-text">
+                  Informed design of learning solutions, the learning path and pedagogical frameworks by education specialists and academic advisors. 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="Technical.png"
+                  class=" img-fluid"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Technical</h3>
+                <p class="card-text">
+                  Principal directing force in the research and instruction of subject matter, spanning multiple specialisations. <a href="#">Scope</a> of expertise.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="Editing.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Editorial</h3>
+                <p class="card-text">
+                  The manuscript is a story of technical vigour and linguistic elegance, written in the language of data. Portolio example found here.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="CRM.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">CRM</h3>
+                <p class="card-text">Ethical conduct in  providing individualised solutions and facilitating engagement with the student community and institutional stakeholders.  
+                </p>              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Learn Sections -->
+    <section id="services" class="p-5 pt-lg-3">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="undergraduate.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Undergraduate services</h2>
+            <p class="lead">DP appeals, Turnitin reports and 2-minute noodles. We know how difficult varsity life can get, and we want to help make the load a little lighter. Assistance tailoured to your schedule, budget and needs— extra support and expert guidance, at your fingertips.  
+            </p>
+            <p>
+              Theory tests, practical reports, study timetables, reports to career guidnace. There is aid at all levels of the assessment landscape.
+            </p>
+            <a href="#" class="btn btn-warning mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Postgraduate services</h2>
+            <p class="lead">Stepping into the world of peer-review and presentations can be a daunting task and securing your postgraduate degree comes with a unique set of challenges. Find out about our postgraduate and editorial services.
+            </p>
+            <p>
+              We can't change your supervisor or your p-values, but we can fortify your knowledgebase and equip you with skills in academic writing, experimental design, statistics, data analysis and guidance in the journal submission process. A helping hand, from project proposal to publication.
+            </p>
+            <a href="#" class="btn btn-warning mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="postgrad.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+<h1>Contact Details to Follow</h1>
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2024 UniPal</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="enroll"
+      tabindex="-1"
+      aria-labelledby="enrollLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">Request Form</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Fill out this form and we will get back to you</p>
+            <form>
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                  First Name:
+                </label>
+                <input type="text" class="form-control" id="first-name" />
+              </div>
+              <div class="mb-3">
+                <label for="last-name" class="col-form-label">Last Name:</label>
+                <input type="text" class="form-control" id="last-name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="col-form-label">Phone:</label>
+                <input type="tel" class="form-control" id="phone" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    
+
+
+  </body>
+</html>
